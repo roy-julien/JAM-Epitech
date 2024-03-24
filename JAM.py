@@ -32,7 +32,7 @@ def format_price(price):
     if price is None:
         return 'N/A'
 
-    price_meur = round(float(price) * 1000, 3)  # Convert euros to millieuros and round to three decimal places
+    price_meur = round(float(price) * 1000, 3)
     return f"{price_meur:.3f} EUR"
 
 
