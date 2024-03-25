@@ -36,6 +36,6 @@ def format_price(price):
     return f"{price_meur:.3f} EUR"
 
 
-api_url = " /api/explore/v2.1/catalog/datasets/prix_des_carburants_j_7/records?where=city%3D%22YZEURE%22&limit=20"
+api_url = "https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets/prix_des_carburants_j_7/records?where=city%3D%22YZEURE%22&limit=20"
 
 fetch_fuel_prices(api_url)
